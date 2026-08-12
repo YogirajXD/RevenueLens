@@ -1,9 +1,11 @@
 """
 generate_data.py
 
-Quick script I wrote to spin up a fake but realistic e-commerce dataset.
-Uses Faker + numpy to get varied names, emails, dates etc.
-Outputs 4 CSVs into /data — run this first before load_db.py
+Synthetic E-Commerce Data Pipeline
+Generates reproducible customer, product, order, and order_item CSV datasets.
+Outputs 4 CSV files to /data/ directory with realistic holiday seasonality and customer churn.
+
+Run: python generate_data.py
 """
 
 import os
