@@ -109,8 +109,4 @@ streamlit run dashboard/dashboard.py
 
 ---
 
-## 🚀 Future Roadmap
 
-- [ ] **Real API Integration**: Connect pipeline directly to Shopify / WooCommerce REST APIs.
-- [ ] **Machine Learning Churn Prediction**: Train XGBoost model on RFM features to calculate churn probability scores.
-- [ ] **Automated Reporting**: Deploy Airflow DAGs for weekly email executive summaries via SendGrid.
