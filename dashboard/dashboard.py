@@ -1,9 +1,8 @@
 """
 dashboard/dashboard.py
 
-RevenueLens interactive dashboard — built with Streamlit + Plotly.
-Supports interactive Light/Dark Glassmorphism themes.
-Connects to SQLite DB with date, region, and category filters.
+RevenueLens interactive executive dashboard — built with Streamlit & Plotly.
+Features Light & Dark Glassmorphism themes, responsive KPI metrics, and SQL query caching.
 
 Run: streamlit run dashboard/dashboard.py
 """
