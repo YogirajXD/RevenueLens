@@ -1,4 +1,15 @@
-# GitHub Linguist Configuration
-# Allow natural language detection across Jupyter Notebook, Python, and SQL
-data/* linguist-vendored
-images/* linguist-vendored
+# GitHub Linguist Explicit Language Detection Overrides
+
+# Force GitHub Linguist to detect and include Jupyter Notebook in the Languages Bar
+notebooks/*.ipynb linguist-language=Jupyter\ Notebook
+notebooks/*.ipynb linguist-detectable=true
+
+# Force GitHub Linguist to detect and include SQL in the Languages Bar
+sql/*.sql linguist-language=SQL
+sql/*.sql linguist-detectable=true
+sql/queries.sql linguist-language=SQL
+sql/queries.sql linguist-detectable=true
+
+# Vendor generated datasets and image assets so they don't skew stats
+data/** linguist-vendored=true
+images/** linguist-vendored=true
