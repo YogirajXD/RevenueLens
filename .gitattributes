@@ -1,0 +1,4 @@
+# GitHub Linguist Overrides
+# Mark notebooks and generated data as documentation/vendored so primary code (Python, SQL) shows in the Language Bar
+notebooks/*.ipynb linguist-documentation
+data/* linguist-vendored
